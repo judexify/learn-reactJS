@@ -130,3 +130,91 @@ input[type="checkbox"] {
   font-weight: 700;
   padding: 3.2rem 0;
 }
+/* media query */
+/* Tablet - 768px */
+@media (max-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  h1 {
+    font-size: 5.6rem;
+    word-spacing: 15px;
+    letter-spacing: -3px;
+  }
+
+  .add-form {
+    flex-wrap: wrap;
+    padding: 2rem 1.6rem;
+    gap: 1.2rem;
+  }
+
+  .add-form h3 {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .list ul {
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+/* Mobile - 480px */
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+    word-spacing: 8px;
+    letter-spacing: -2px;
+  }
+
+  .add-form {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1.6rem 2.4rem;
+  }
+
+  .add-form h3 {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  button,
+  select,
+  input {
+    width: 100%;
+    text-align: center;
+  }
+
+  .list {
+    padding: 2.4rem 0;
+    gap: 2rem;
+  }
+
+  .list ul {
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .actions button,
+  .list select {
+    margin: 0;
+  }
+
+  .stats {
+    padding: 2rem 1.6rem;
+    font-size: 1.6rem;
+  }
+}
