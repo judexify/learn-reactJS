@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/learn-reactJS/travel-list/static/css/main.708779c1.css",
+    "main.js": "/learn-reactJS/travel-list/static/js/main.4ccaeaa6.js",
+    "index.html": "/learn-reactJS/travel-list/index.html",
+    "main.708779c1.css.map": "/learn-reactJS/travel-list/static/css/main.708779c1.css.map",
+    "main.4ccaeaa6.js.map": "/learn-reactJS/travel-list/static/js/main.4ccaeaa6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.708779c1.css",
+    "static/js/main.4ccaeaa6.js"
+  ]
+}
